@@ -1,0 +1,58 @@
+1º//
+git clone https://github.com/joseoe1996/umafactorial.git //creo un repositorio en github y lo clono en 
+mi maquina
+2º//
+git touch factorial.java //creo el fichero factorial.java
+3*//
+git add factorial.java // preparo el fichero para añadirlo al staging index
+git commit -m "implementacion inicial" // lo confirmo y añado un comentario
+4º//
+git add factorial.java // actualizo el fichero y lo preparo
+git commit -m "refactorizacion" // lo confirmo y añado comentario
+5*//
+git push origin master // envio los cambios al repositorio de github
+git branch recursivo // creo una nueva rama con nombre recursivo
+git checkout recursivo // cambio a esa rama
+7*//
+git add factorial.java // cambio  el codigo y lo preparo
+git commit -m"implementacion recursiva" // lo confirmo y añado comentario
+git push origin recursivo // subo la rama recursivo a github
+8*//
+git checkout master // vuelvo a la rama master
+10*// despues de actualizar el codigo
+git add factorial.java // preparo el codigo
+git commit -m "correcion numeros negativos"
+git push origin master //actualizo la rama master en github
+11*//
+git checkout recursivo //vuelvo a la rama recursivo
+git add factorial.java // actualizo el codigo y preparo
+git commit -m "optimizacion" // lo confirmo y añado comentario
+12*//
+git checkout master //vuelvo a la rama master
+git merge recursivo // mezclo las ramas recursivo y master
+13*//
+git branch refacIO // creo una nueva rama refacIO
+git checkout refacIO // me cambio a la rama refacIO
+14*//
+git add factorial.java // actualizo el codigo y lo preparo
+git commit -m "refactorizacion del metodo de entrada" // lo confirmo y le añado el comentario
+15*//
+git stash //guardo temporalmente los cambios en el stash
+git checkout master // vuelvo a la rama master
+16*//
+git add factorial.java // actualizo el codigo y lo preparo
+git commit -m "cambio de long a BigInteger" // lo confirmo y añado el comentario
+git push origin master // actualizo la rama en github
+git checkout refacIO // cambio de rama
+git stash pop // recuperamos los cambios guardados anteriormente de forma temporal
+git add factorial.java // actualizo el codigo y lo preparo
+git commit -m "refactorizacion de metodo de salida" //lo confirmo y añado el comentario
+17*//
+git checkout master // cambio a la rama master
+git merge refacIO // mezclo las ramas master y refacIO
+19*//realizo los cambios pertinentes al archivo para solucionar los problemas ocasionados por la mezcla
+git add factorial.java //actualizo el codigo y lo preparo
+git commit -m "mezcla de rama refacIO" // lo confirmo y añado el comentario
+
+
+
